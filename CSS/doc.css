@@ -1,0 +1,53 @@
+.item1, .item2{
+    border: 2px solid #87BAE1;
+    height: 200px;
+    padding: 20px;
+}
+
+.item1:nth-child(1),.item2:nth-child(1){
+    border-top-style: none;
+}
+
+.item1{
+   border-bottom-style: none;
+   border-right-style: none;
+   border-left-style: none;
+}
+
+.item1:last-child{
+    border-right-style: none;
+}
+
+.item2{
+   border-bottom-style: none;
+   border-right-style: none;
+}
+
+.big{
+    margin-top: 300px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding: 50px;
+    
+   background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 45%, rgba(255,255,255,1) 95%);
+}
+
+
+.titre-case{
+    text-transform: uppercase;
+}
+
+.colonne1{
+    padding-right: 0;
+}
+
+.colonne2{
+    
+    padding-left: 0;
+}
+
+
+
+.description{
+    text-align: center;
+}
